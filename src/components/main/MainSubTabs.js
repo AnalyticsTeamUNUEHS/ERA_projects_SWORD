@@ -33,6 +33,8 @@ const MainSubTabs = () => {
 
   const handleSubTabChange = (event, newValue) => {
     setSelectedSubTab(newValue);
+    // Set the active vew to display_chart if Economic & Non-Economic tab is selected.
+    // The display_map is not currently available for this tab.
     if (newValue === 1) {
       setActiveViewControl("display_chart");
     }
