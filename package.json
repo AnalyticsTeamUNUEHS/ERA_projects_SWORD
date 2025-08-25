@@ -78,6 +78,18 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.2"
   },
+  "overrides": {
+    "react-scripts": {
+      "form-data": "4.0.4",
+      "path-to-regexp": "0.1.12",
+      "postcss": "8.4.31",
+      "http-proxy-middleware": "2.0.9",
+      "nanoid": "3.3.8",
+      "nth-check": "2.0.1",
+      "on-headers": "1.1.0",
+      "tmp": "0.2.4"
+    }
+  },
   "build": {
     "asar": false,
     "appId": "com.unu.riskwise",
